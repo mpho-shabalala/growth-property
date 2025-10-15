@@ -1,5 +1,5 @@
 // src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Properties from "./pages/properties";
 import { PropertiesProvider } from "./contexts/PropertiesContext";
 import { MessageProvider } from "./contexts/chatbotContext";
