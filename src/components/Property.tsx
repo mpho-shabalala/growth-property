@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import type { PropertyType } from '../types'
 import './Property.css';
