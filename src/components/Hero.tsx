@@ -6,7 +6,7 @@ function Hero() {
     <div  id='hero'>
        <div className='container' >
             <h1 className='hero-title' >Building For Generations</h1>
-            <a className='btn red waves-effect waves-light ' href="/properties">See Properties</a>
+            <a className='btn red waves-effect waves-light ' href="/growth-property/properties">See Properties</a>
        </div>
     </div>
   )
