@@ -1,0 +1,25 @@
+#form {
+  margin-top: 6rem;
+}
+
+#main-img-container {
+  display: flex;              /* enable flexbox */
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+  height: 100%;               /* take full height of parent row */
+}
+
+#internal-form-container {
+  display: flex;
+  flex-direction: column;     /* fix typo: col → column */
+  align-items: center; 
+  justify-content: center;
+  width: 80%;                /* let image container adapt */
+  height: auto;
+}
+
+#form-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

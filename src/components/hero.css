@@ -1,0 +1,17 @@
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('https://th.bing.com/th/id/R.59d156bef5a4194ed99da8baf4f737c4?rik=U0Qtgke3vNpP3Q&riu=http%3a%2f%2fluxport.s3.amazonaws.com%2f108968%2f442403_2-EXT.jpg&ehk=SqhxwLcOTTxr5A1GiuIE54cSB04g8F2p3Vy6AZByolI%3d&risl=&pid=ImgRaw&r=0') 
+              center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-title{
+    font: bold;
+    font-size: xx-large;
+    color: white;
+}

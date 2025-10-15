@@ -1,0 +1,28 @@
+#about-agent-container {
+  padding-top: 6rem;
+}
+
+@media only screen and (min-width: 601px) {
+  #about-agent-container {
+    display: flex;
+    align-items: center;  /* vertical center for text + image */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about-agent-container {
+    flex-direction: column-reverse; /* reverse order only on mobile */
+  }
+}
+
+
+#about-img-container {
+  display: flex;
+  justify-content: center; /* center image horizontally inside column */
+}
+
+#about-agent-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
