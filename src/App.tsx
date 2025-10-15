@@ -14,10 +14,10 @@ function App() {
       <PropertiesProvider>
         <MessageProvider>
           <Routes>
-            <Route path='/' element={<Homepage/>} />
-            <Route path="/properties" element={<Properties />} />
-            <Route path="/properties/:id" element={<PropertyPage />} />
-            <Route path="/contact" element={<Contactpage />} />
+            <Route index element={<Homepage/>} />
+            <Route path="properties" element={<Properties />} />
+            <Route path="properties/:id" element={<PropertyPage />} />
+            <Route path="contact" element={<Contactpage />} />
           </Routes>
         </MessageProvider>
       </PropertiesProvider>

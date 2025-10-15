@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import M from 'materialize-css';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   useEffect(() => {
@@ -14,21 +15,21 @@ const Header: React.FC = () => {
       <nav className="blue darken-4">
         <div className="nav-wrapper container">
           {/* Brand */}
-          <a href="/" className="brand-logo">
+          <Link to="/" className="brand-logo">
             GrowthProperties
-          </a>
+          </Link>
 
           {/* Mobile menu toggle */}
-          <a href="#" data-target="mobile-menu" className="sidenav-trigger">
+          <Link to="#" data-target="mobile-menu" className="sidenav-trigger">
             <i className="material-icons">menu</i>
-          </a>
+          </Link>
 
           {/* Desktop links */}
           <ul className="right hide-on-med-and-down">
-            <li><a href="/">Home</a></li>
-            <li><a href="/properties">Properties</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/properties">Properties</Link></li>
+            <li><Link to="#">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           
           </ul>
         </div>
@@ -38,10 +39,10 @@ const Header: React.FC = () => {
 
       {/* Mobile Sidenav */}
       <ul className="sidenav" id="mobile-menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/properties">Properties</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/properties">Properties</Link></li>
+        <li><Link to="#">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
 
       

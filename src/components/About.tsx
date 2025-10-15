@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './About.css'
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
                 aperiam delectus recusandae explicabo maiores totam mollitia eaque sequi error sit reprehenderit blanditiis eligendi
                  eius a fuga nihil facere pariatur cumque temporibus. Ipsam sequi facere dolore repellendus, totam quaerat fugiat 
                  voluptatum laborum minima illo fuga iusto provident illum officia inventore consectetur hic magni commodi eaque accusamus.</p>
-                 <a href="#form" className="btn blue waves-effect ">Contact us</a>
+                 <Link to="/contact" className="btn blue waves-effect ">Contact us</Link>
             </div>
         </div>
     </div>
