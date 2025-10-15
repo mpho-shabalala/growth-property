@@ -1,4 +1,3 @@
-import React from 'react'
 import { useProperties } from '../contexts/PropertiesContext'
 import Property from './Property';
 import './PropertyList.css'

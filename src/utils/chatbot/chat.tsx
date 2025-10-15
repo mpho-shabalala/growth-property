@@ -1,7 +1,7 @@
 import { getAI, getGenerativeModel, GoogleAIBackend} from 'firebase/ai'
 import {app, db} from '../firebase/firebase'
-import { collection, getDocs, type doc } from 'firebase/firestore';
-import type { LocationType, PropertyType } from '../../types';
+import { collection, getDocs} from 'firebase/firestore';
+import type { LocationType } from '../../types';
 const ai = getAI(app, {backend: new GoogleAIBackend})
 
 const model = getGenerativeModel(ai, { model: "gemini-2.5-flash" })

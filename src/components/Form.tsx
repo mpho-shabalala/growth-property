@@ -2,7 +2,7 @@ import './Form.css';
 import {collection, addDoc} from 'firebase/firestore';
 import {db} from '../utils/firebase/firebase';
 import { useEffect, useState } from 'react';
-import Status from './status';
+import Status from './Status';
 
 
 

@@ -1,5 +1,5 @@
-import axios from 'axios';
-import {createContext, useContext, useEffect, useState} from 'react'
+
+import {createContext, useContext, useState} from 'react'
 import type { MessageType } from '../types';
 import {chat} from '../utils/chatbot/chat';
 interface MessageContextType{
