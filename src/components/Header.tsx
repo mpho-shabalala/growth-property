@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <nav className="blue darken-4">
         <div className="nav-wrapper container">
           {/* Brand */}
-          <a href="/growth-property" className="brand-logo">
+          <a href="/" className="brand-logo">
             GrowthProperties
           </a>
 
@@ -25,10 +25,10 @@ const Header: React.FC = () => {
 
           {/* Desktop links */}
           <ul className="right hide-on-med-and-down">
-            <li><a href="/growth-property">Home</a></li>
-            <li><a href="/growth-property/properties">Properties</a></li>
-            <li><a href="/growth-property#">About</a></li>
-            <li><a href="/growth-property/contact">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/properties">Properties</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           
           </ul>
         </div>
@@ -38,10 +38,10 @@ const Header: React.FC = () => {
 
       {/* Mobile Sidenav */}
       <ul className="sidenav" id="mobile-menu">
-        <li><a href="/growth-property">Home</a></li>
-        <li><a href="/growth-property/properties">Properties</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/properties">Properties</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="/growth-property/contact">Contact</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
 
       
