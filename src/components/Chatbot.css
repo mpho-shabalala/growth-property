@@ -1,12 +1,12 @@
-/* .chatbot {
+.chatbot {
   position: fixed;
-  bottom: 2rem;
-  right: 1rem;
+  bottom: 620px;
+  right: 30vw;
   width: fit-content;
   height: fit-content;
-} */
+}
 
-/* .bot-form {
+.bot-form {
   width: 30vw;
   max-width: 400px;
   height: 60vh;
@@ -17,7 +17,7 @@
   grid-template-rows: 20% 70% 10%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   z-index: 2;
-} */
+}
 
 /* Header */
 .bot-header {
@@ -61,8 +61,6 @@
   grid-template-rows: 20% 70% 10%; /* header, messages, input */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
-}
-
 
 /* Chatbot CSS patch */
 .chatbot {
@@ -73,6 +71,10 @@
   isolation: isolate;
   pointer-events: none;
 }
+}
+
+
+
 
 .bot-form {
   position: fixed !important;
